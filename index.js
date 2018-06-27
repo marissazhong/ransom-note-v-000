@@ -18,6 +18,7 @@ function binaryMatch(magazine, letter) {
   // if letter is found, return true and delete letter from histogram
   if (letter in letterCounts) {
     return true;
+    letterCounts[letter]--;
   }
   return false;
 }
