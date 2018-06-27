@@ -25,6 +25,6 @@ function binaryMatch(magazine, letter) {
 let magazine = ["h", "e", "r", "e", "a", "r", "e", "s", "o", "m",
 "e", "n", "i", "c", "e", "c", "l", "o", "t", "h", "e", "s", "t"]
 
-function canBuildNote() {
-
+function canBuildNote(magazine, note) {
+  note_letters = note.split("");
 }
