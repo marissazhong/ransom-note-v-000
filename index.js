@@ -32,4 +32,5 @@ function isLetter(str) {
 function canBuildNote(magazine, note) {
   note = note.replace(/[^a-zA-z]/g,"");
   note_letters = note.split("");
+  console.log(note_letters);
 }
