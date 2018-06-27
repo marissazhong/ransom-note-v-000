@@ -30,6 +30,7 @@ function canBuildNote(magazine, note) {
       return false;
     } else {
       letterCounts[note_letters[i]] --;
+      console.log(letterCounts);
     }
   }
   return true;
