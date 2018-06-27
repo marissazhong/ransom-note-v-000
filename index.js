@@ -25,7 +25,9 @@ function binaryMatch(magazine, letter) {
 function canBuildNote(magazine, note) {
   note = note.replace(/[^a-zA-z]/g,"");
   let note_letters = note.split("");
-
+  for (let i = 0; i < note_letters.length; i++) {
+    
+  }
 }
 
 let magazine = ["h", "e", "r", "e", "a", "r", "e", "s", "o", "m",
