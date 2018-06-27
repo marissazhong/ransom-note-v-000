@@ -32,9 +32,8 @@ function canBuildNote(magazine, note) {
       if(letterCounts[note_letters[i]] == 1) {
         delete letterCounts[note_letters[i]]
       } else {
-        
+        letterCounts[note_letters[i]] --;
       }
-      letterCounts[note_letters[i]] --;
       console.log(letterCounts);
     }
   }
