@@ -35,3 +35,4 @@ function canBuildNote(magazine, note) {
 let magazine = ["h", "e", "r", "e", "a", "r", "e", "s", "o", "m",
 "e", "n", "i", "c", "e", "c", "l", "o", "t", "h", "e", "s", "t"];
 let note = "hand me the ferbie or else";
+console.log(canBuildNote(magazine,note));
