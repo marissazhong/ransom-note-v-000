@@ -17,8 +17,8 @@ function binaryMatch(magazine, letter) {
   let letterCounts = buildHistogram(magazine);
   // if letter is found, return true and delete letter from histogram
   if (letter in letterCounts) {
-    return true;
     letterCounts[letter]--;
+    return true;
   }
   return false;
 }
@@ -27,7 +27,9 @@ function canBuildNote(magazine, note) {
   note = note.replace(/[^a-zA-z]/g,"");
   let note_letters = note.split("");
   for (let i = 0; i < note_letters.length; i++) {
-    
+    if (binaryMatch(magazine, note_letters[i])) {
+
+    }
   }
 }
 
