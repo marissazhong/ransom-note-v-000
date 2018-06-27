@@ -14,8 +14,12 @@ function buildHistogram(magazine) {
 //console.log(buildHistogram(magazine));
 
 function binaryMatch(magazine, letter) {
-  let letterCounts = buildHistogram(letters);
-  // if 
+  let letterCounts = buildHistogram(magazine);
+  // if letter is found, return true and delete letter from histogram
+  if (letter in letterCounts) {
+    return true;
+  }
+  return false;
 }
 
 let magazine = ["h", "e", "r", "e", "a", "r", "e", "s", "o", "m",
