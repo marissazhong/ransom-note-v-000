@@ -22,15 +22,16 @@ function binaryMatch(magazine, letter) {
   return false;
 }
 
-let magazine = ["h", "e", "r", "e", "a", "r", "e", "s", "o", "m",
-"e", "n", "i", "c", "e", "c", "l", "o", "t", "h", "e", "s", "t"]
-
 function isLetter(str) {
 
 }
 
 function canBuildNote(magazine, note) {
-  note = note.replace(/[^a-zA-z]/g,"");
-  note_letters = note.split("");
+  let note = note.replace(/[^a-zA-z]/g,"");
+  let note_letters = note.split("");
   console.log(note_letters);
 }
+
+let magazine = ["h", "e", "r", "e", "a", "r", "e", "s", "o", "m",
+"e", "n", "i", "c", "e", "c", "l", "o", "t", "h", "e", "s", "t"];
+let note = "hand me the ferbie or else";
