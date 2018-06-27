@@ -8,6 +8,7 @@ function buildHistogram(letters) {
       magazineHistogram[letters[i]] = 1;
     }
   }
+  return magazineHistogram;
 }
 
 function binaryMatch() {
