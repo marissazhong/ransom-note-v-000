@@ -11,14 +11,14 @@ function buildHistogram(letters) {
   return magazineHistogram;
 }
 
-let magazine = ["h", "e", "r", "e", "a", "r", "e", "s", "o", "m",
-"e", "n", "i", "c", "e", "c", "l", "o", "t", "h", "e", "s", "t"]
-
-console.log(buildHistogram(magazine));
+//console.log(buildHistogram(magazine));
 
 function binaryMatch() {
 
 }
+
+let magazine = ["h", "e", "r", "e", "a", "r", "e", "s", "o", "m",
+"e", "n", "i", "c", "e", "c", "l", "o", "t", "h", "e", "s", "t"]
 
 function canBuildNote() {
 
