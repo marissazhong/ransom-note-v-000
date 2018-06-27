@@ -28,6 +28,8 @@ function canBuildNote(magazine, note) {
   for (let i = 0; i < note_letters.length; i++) {
     if (!binaryMatch(letterCounts, note_letters[i])) {
       return false;
+    } else {
+      letterCounts[note_letters[i]] --;
     }
   }
   return true;
