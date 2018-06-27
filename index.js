@@ -31,6 +31,7 @@ function canBuildNote(magazine, note) {
       return false;
     }
   }
+  return true;
 }
 
 let magazine = ["h", "e", "r", "e", "a", "r", "e", "s", "o", "m",
