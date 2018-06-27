@@ -22,14 +22,10 @@ function binaryMatch(magazine, letter) {
   return false;
 }
 
-function isLetter(str) {
-
-}
-
 function canBuildNote(magazine, note) {
   note = note.replace(/[^a-zA-z]/g,"");
   let note_letters = note.split("");
-  console.log(note_letters);
+
 }
 
 let magazine = ["h", "e", "r", "e", "a", "r", "e", "s", "o", "m",
