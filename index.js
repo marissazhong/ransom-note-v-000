@@ -29,6 +29,11 @@ function canBuildNote(magazine, note) {
     if (!binaryMatch(letterCounts, note_letters[i])) {
       return false;
     } else {
+      if(letterCounts[note_letters[i]] == 1) {
+        delete letterCounts[note_letters[i]]
+      } else {
+        
+      }
       letterCounts[note_letters[i]] --;
       console.log(letterCounts);
     }
