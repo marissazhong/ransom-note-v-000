@@ -13,8 +13,9 @@ function buildHistogram(letters) {
 
 //console.log(buildHistogram(magazine));
 
-function binaryMatch() {
-
+function binaryMatch(letters) {
+  let letterCounts = buildHistogram(letters);
+  
 }
 
 let magazine = ["h", "e", "r", "e", "a", "r", "e", "s", "o", "m",
