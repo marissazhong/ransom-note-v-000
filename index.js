@@ -26,7 +26,7 @@ function canBuildNote(magazine, note) {
   note = note.replace(/[^a-zA-z]/g,"");
   let note_letters = note.split("");
   for (let i = 0; i < note_letters.length; i++) {
-    if (!binaryMatch(magazine, note_letters[i])) {
+    if (!binaryMatch(letterCounts, note_letters[i])) {
       return false;
     }
   }
