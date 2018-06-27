@@ -25,6 +25,7 @@ function binaryMatch(magazine, letter) {
 }
 
 function canBuildNote(magazine, note) {
+  let letterCounts = buildHistogram(magazine);
   note = note.replace(/[^a-zA-z]/g,"");
   let note_letters = note.split("");
   for (let i = 0; i < note_letters.length; i++) {
